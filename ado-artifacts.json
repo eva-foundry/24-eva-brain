@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-02-21T00:00:00",
+  "ado_org": "https://dev.azure.com/marcopresta",
+  "ado_project": "eva-poc",
+  "github_repo": "eva-foundry/24-eva-brain",
+  "project_maturity": "retired",
+
+  "epic": {
+    "skip_if_id_exists": null,
+    "type": "Epic",
+    "title": "EVA Brain v1 (Retired — superseded by 33-eva-brain-v2)",
+    "description": "Original EVA Brain — PubSec Information Assistant monolith decomposition. v1 architecture with full README (1098 lines), .git, .github, extensive docs. RETIRED 2026-02-13 when 33-eva-brain-v2 reached Sprint-5 milestone with 486/486 tests. No new work should target this folder. Links to 33-eva-brain-v2 for all active development.",
+    "tags": "eva-brain-v1;24;retired",
+    "area_path": "eva-poc"
+  },
+
+  "features": [
+    {
+      "id_hint": "brainv1-archive",
+      "type": "Feature",
+      "title": "Archive Reference — v1 Decomposition Artifacts",
+      "description": "Historical artifacts: architecture docs, decomposition decisions, interface contracts from the PubSec monolith extraction. Preserved as read-only reference for 33-eva-brain-v2 design decisions.",
+      "tags": "eva-brain-v1;brainv1-archive",
+      "parent": "epic"
+    }
+  ],
+
+  "user_stories": [
+    {
+      "id_hint": "brainv1-wi-0",
+      "type": "Product Backlog Item",
+      "title": "[BRAIN-V1-WI-0] Archive v1 artifacts — mark repo retired, link to 33-eva-brain-v2",
+      "acceptance_criteria": "README.md updated with RETIRED banner and pointer to 33-eva-brain-v2. Branch protection set to read-only. ADO Epic linked to 33-eva-brain-v2 Epic as predecessor.",
+      "tags": "eva-brain-v1;brainv1-wi-0",
+      "iteration_path": "eva-poc\\Sprint-Backlog",
+      "state": "Done",
+      "parent": "brainv1-archive",
+      "evidence": { "test_count": null, "coverage_pct": null, "notes": "Retired 2026-02-13. 33-eva-brain-v2 is the active successor." }
+    }
+  ],
+
+  "sprints_needed": [
+    { "name": "Sprint-Backlog", "start_date": null, "finish_date": null }
+  ]
+}

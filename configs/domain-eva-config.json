@@ -1,0 +1,14 @@
+{
+  "chat_input_selector": "textarea[placeholder='Type a new question here'], textarea, input[type='text']",
+  "send_button_selector": "button[aria-label='Send'], button[type='submit']",
+  "response_selector": ".answer, .result, .response, div[role='article']",
+  "response_stable_seconds": 3,
+  "response_poll_ms": 500,
+  "ungrounded_pre_actions": [
+    {"type": "wait_for", "selector": "textarea"}
+  ],
+  "grounded_pre_actions": [
+    {"type": "wait_for", "selector": "textarea"},
+    {"type": "click", "selector": "button[aria-label='Settings'], button[title='Settings'], button[aria-label='Adjust']"}
+  ]
+}

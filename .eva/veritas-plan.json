@@ -1,0 +1,524 @@
+{
+  "schema": "eva.veritas-plan.v1",
+  "generated_at": "2026-02-25T06:37:20.010Z",
+  "generated_from": [
+    "PLAN.md"
+  ],
+  "format_detected": "veritas",
+  "prefix": "F24",
+  "features": [
+    {
+      "id": "F24-01",
+      "title": "?? The Complete Vision",
+      "source_heading": "## Feature: ?? The Complete Vision [ID=F24-01]",
+      "stories": []
+    },
+    {
+      "id": "F24-02",
+      "title": "Table of Contents",
+      "source_heading": "## Feature: Table of Contents [ID=F24-02]",
+      "stories": []
+    },
+    {
+      "id": "F24-03",
+      "title": "Strategic Overview",
+      "source_heading": "## Feature: Strategic Overview [ID=F24-03]",
+      "stories": [
+        {
+          "id": "F24-03-001",
+          "title": "Purpose",
+          "feature_id": "F24-03",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-03-002",
+          "title": "Strategic Value",
+          "feature_id": "F24-03",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-04",
+      "title": "Architecture",
+      "source_heading": "## Feature: Architecture [ID=F24-04]",
+      "stories": [
+        {
+          "id": "F24-04-001",
+          "title": "Current State: Monolithic",
+          "feature_id": "F24-04",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-04-002",
+          "title": "Target State: Microservices with EVA Face",
+          "feature_id": "F24-04",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-04-003",
+          "title": "EVA-JP Backend Stack",
+          "feature_id": "F24-04",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-05",
+      "title": "Quick Start",
+      "source_heading": "## Feature: Quick Start [ID=F24-05]",
+      "stories": [
+        {
+          "id": "F24-05-001",
+          "title": "Prerequisites",
+          "feature_id": "F24-05",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-05-002",
+          "title": "1. Review Documentation",
+          "feature_id": "F24-05",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-05-003",
+          "title": "2. Validate API Contracts",
+          "feature_id": "F24-05",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-05-004",
+          "title": "3. Start Spark Development",
+          "feature_id": "F24-05",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-05-005",
+          "title": "4. Merge to EVA Brain",
+          "feature_id": "F24-05",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-06",
+      "title": "Project Structure",
+      "source_heading": "## Feature: Project Structure [ID=F24-06]",
+      "stories": []
+    },
+    {
+      "id": "F24-07",
+      "title": "Key Artifacts",
+      "source_heading": "## Feature: Key Artifacts [ID=F24-07]",
+      "stories": [
+        {
+          "id": "F24-07-001",
+          "title": "1. EVA-JP-v1.2-ARCHITECTURE.md ? NEW",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-002",
+          "title": "2. EVA-FACE-STRATEGY.md ?",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-003",
+          "title": "3. EVA-Brain-Smoke-Test.ps1 ?",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-004",
+          "title": "4. EVA-BRAIN-API-CONTRACTS.md",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-005",
+          "title": "5. prd-eva-chat-spark-poc.md",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-006",
+          "title": "6. COPILOT-DISCOVERY-RUNBOOK.md",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-007",
+          "title": "7. eva_brain_contract_test.ps1",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-07-008",
+          "title": "5. EVA-BRAIN.postman_collection.json",
+          "feature_id": "F24-07",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-08",
+      "title": "Development Workflow",
+      "source_heading": "## Feature: Development Workflow [ID=F24-08]",
+      "stories": [
+        {
+          "id": "F24-08-001",
+          "title": "Phase 0: Smoke Test Validation ? CURRENT",
+          "feature_id": "F24-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-08-002",
+          "title": "Phase 1: EVA Face API Gateway (Week 1-2)",
+          "feature_id": "F24-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-08-003",
+          "title": "Phase 2: EVA Face Clients (Week 3-4)",
+          "feature_id": "F24-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-08-004",
+          "title": "Phase 3: Governance Integration (Week 5-6)",
+          "feature_id": "F24-08",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-08-005",
+          "title": "Phase 4: Scale & Optimize (Week 7-10)",
+          "feature_id": "F24-08",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-09",
+      "title": "Testing",
+      "source_heading": "## Feature: Testing [ID=F24-09]",
+      "stories": []
+    },
+    {
+      "id": "F24-10",
+      "title": "Testing",
+      "source_heading": "## Feature: Testing [ID=F24-10]",
+      "stories": [
+        {
+          "id": "F24-10-001",
+          "title": "Smoke Test (Phase 0 Validation)",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-10-002",
+          "title": "Contract Testing (Production Validation)",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-10-003",
+          "title": "Integration Testing (Phase 2+)",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-10-004",
+          "title": "Load Testing (Phase 4)",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-10-005",
+          "title": "Manual Testing with Postman",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-10-006",
+          "title": "Browser-Based Testing",
+          "feature_id": "F24-10",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-11",
+      "title": "Deployment",
+      "source_heading": "## Feature: Deployment [ID=F24-11]",
+      "stories": [
+        {
+          "id": "F24-11-001",
+          "title": "Phase 0: Local Development (Current)",
+          "feature_id": "F24-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-11-002",
+          "title": "Phase 1: EVA Face Gateway (Week 1-2)",
+          "feature_id": "F24-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-11-003",
+          "title": "Phase 2: Multi-Client Deployment (Week 3-4)",
+          "feature_id": "F24-11",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-11-004",
+          "title": "Phase 3: Production (Week 7-10)",
+          "feature_id": "F24-11",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-12",
+      "title": "Documentation References",
+      "source_heading": "## Feature: Documentation References [ID=F24-12]",
+      "stories": [
+        {
+          "id": "F24-12-001",
+          "title": "Strategic Vision",
+          "feature_id": "F24-12",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-12-002",
+          "title": "API Contracts & Testing",
+          "feature_id": "F24-12",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-12-003",
+          "title": "EVA-JP Documentation",
+          "feature_id": "F24-12",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-12-004",
+          "title": "Foundation Best Practices",
+          "feature_id": "F24-12",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-13",
+      "title": "Related Projects",
+      "source_heading": "## Feature: Related Projects [ID=F24-13]",
+      "stories": [
+        {
+          "id": "F24-13-001",
+          "title": "EVA-JP-v1.2 (Production Monolith)",
+          "feature_id": "F24-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-13-002",
+          "title": "PubSec-Info-Assistant (Microsoft Base)",
+          "feature_id": "F24-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-13-003",
+          "title": "Project 02: PoC Agent Skills",
+          "feature_id": "F24-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-13-004",
+          "title": "Project 14: Azure FinOps",
+          "feature_id": "F24-13",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-13-005",
+          "title": "Open-WebUI (Reference Architecture)",
+          "feature_id": "F24-13",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-14",
+      "title": "Governance & Compliance",
+      "source_heading": "## Feature: Governance & Compliance [ID=F24-14]",
+      "stories": []
+    },
+    {
+      "id": "F24-15",
+      "title": "Governance & Compliance",
+      "source_heading": "## Feature: Governance & Compliance [ID=F24-15]",
+      "stories": [
+        {
+          "id": "F24-15-001",
+          "title": "ESDC Requirements Traceability",
+          "feature_id": "F24-15",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-15-002",
+          "title": "AI Governance Integration",
+          "feature_id": "F24-15",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-15-003",
+          "title": "Security Controls",
+          "feature_id": "F24-15",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-16",
+      "title": "Success Metrics",
+      "source_heading": "## Feature: Success Metrics [ID=F24-16]",
+      "stories": [
+        {
+          "id": "F24-16-001",
+          "title": "Phase 0: Smoke Test (Current)",
+          "feature_id": "F24-16",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-16-002",
+          "title": "Phase 1: EVA Face Gateway (Week 1-2)",
+          "feature_id": "F24-16",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-16-003",
+          "title": "Phase 2: Multi-Client Adoption (Week 3-4)",
+          "feature_id": "F24-16",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-16-004",
+          "title": "Phase 3: Governance at Scale (Week 5-6)",
+          "feature_id": "F24-16",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-16-005",
+          "title": "Phase 4: Production (Week 7-10)",
+          "feature_id": "F24-16",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-17",
+      "title": "Support & Contact",
+      "source_heading": "## Feature: Support & Contact [ID=F24-17]",
+      "stories": [
+        {
+          "id": "F24-17-001",
+          "title": "EVA Face Project",
+          "feature_id": "F24-17",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-17-002",
+          "title": "EVA Brain Backend (EVA-JP)",
+          "feature_id": "F24-17",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-17-003",
+          "title": "Related Services",
+          "feature_id": "F24-17",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    },
+    {
+      "id": "F24-18",
+      "title": "Changelog",
+      "source_heading": "## Feature: Changelog [ID=F24-18]",
+      "stories": [
+        {
+          "id": "F24-18-001",
+          "title": "2026-02-03 - Strategic Vision Complete ?",
+          "feature_id": "F24-18",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-18-002",
+          "title": "2026-02-02 - Phase 0 API Validation Complete ?",
+          "feature_id": "F24-18",
+          "source": "heading",
+          "tasks": []
+        },
+        {
+          "id": "F24-18-003",
+          "title": "Next Milestones",
+          "feature_id": "F24-18",
+          "source": "heading",
+          "tasks": []
+        }
+      ]
+    }
+  ]
+}

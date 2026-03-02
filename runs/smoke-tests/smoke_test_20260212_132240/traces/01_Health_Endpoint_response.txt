@@ -1,0 +1,6 @@
+=== RESPONSE: 01_Health_Endpoint ===
+Timestamp: 2026-02-12 13:22:45
+Status Code: 0
+
+Response Body:
+No connection could be made because the target machine actively refused it. (localhost:5000)

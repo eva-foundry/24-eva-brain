@@ -1,0 +1,5 @@
+[2026-02-12 13:22:40] [INFO] Starting EVA Brain smoke test suite
+[2026-02-12 13:22:40] [INFO] Base URL: http://localhost:5000
+[2026-02-12 13:22:40] [INFO] Running Test: 01_Health_Endpoint
+[2026-02-12 13:22:45] [FAIL] [FAIL] Health endpoint failed: No connection could be made because the target machine actively refused it. (localhost:5000)
+[2026-02-12 13:22:45] [FAIL] [FAIL] Health check failed - cannot proceed with API tests

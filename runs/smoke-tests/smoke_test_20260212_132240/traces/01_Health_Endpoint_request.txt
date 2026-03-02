@@ -1,0 +1,9 @@
+=== REQUEST: 01_Health_Endpoint ===
+Timestamp: 2026-02-12 13:22:40
+URL: http://localhost:5000
+Headers:
+  Accept: application/json
+
+
+Body:
+null

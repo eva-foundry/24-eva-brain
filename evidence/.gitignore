@@ -1,0 +1,17 @@
+# EVA Brain Evidence - Security Controls
+
+# CRITICAL: Never commit actual API discoveries with tokens or sensitive data
+*.har
+*-actual-*.md
+*-session-*.md
+
+# Allow templates and sanitized examples
+!*-template.md
+!*-example-sanitized.md
+
+# Screenshots may contain sensitive UI elements
+screenshots/*.png
+screenshots/*.jpg
+
+# Allow placeholder screenshots
+!screenshots/.gitkeep

@@ -1,0 +1,47 @@
+{
+  "info": {
+    "name": "EVA Brain API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {"key": "base_url", "value": "<BASE_URL>"}
+  ],
+  "item": [
+    {
+      "name": "Chat - Ungrounded",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "url": {
+          "raw": "{{base_url}}/chat",
+          "host": ["{{base_url}}"],
+          "path": ["chat"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"history\": [{\"user\": \"Example question\"}],\n  \"approach\": 3,\n  \"overrides\": {\n    \"byPassRAG\": true,\n    \"responseLength\": 0,\n    \"responseTemp\": 0\n  },\n  \"citation_lookup\": {},\n  \"thought_chain\": {}\n}"
+        }
+      }
+    },
+    {
+      "name": "Chat - RAG (proj1)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"}
+        ],
+        "url": {
+          "raw": "{{base_url}}/chat",
+          "host": ["{{base_url}}"],
+          "path": ["chat"]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"history\": [{\"user\": \"Example question\"}],\n  \"approach\": 1,\n  \"overrides\": {\n    \"byPassRAG\": false,\n    \"selectedFolders\": \"proj1\",\n    \"selectedTags\": \"\",\n    \"top\": 5\n  },\n  \"citation_lookup\": {},\n  \"thought_chain\": {}\n}"
+        }
+      }
+    }
+  ]
+}

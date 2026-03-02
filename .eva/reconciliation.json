@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "schema": "eva.reconciliation.v2",
+    "generated_at": "2026-02-25T06:37:20.556Z",
+    "repo": "C:\\AICOE\\eva-foundation\\24-eva-brain",
+    "discovery_path": "C:\\AICOE\\eva-foundation\\24-eva-brain\\.eva\\discovery.json"
+  },
+  "coverage": {
+    "stories_total": 56,
+    "stories_with_artifacts": 56,
+    "stories_with_evidence": 0,
+    "consistency_score": 0
+  },
+  "features": [
+    {
+      "id": "F24-01",
+      "title": "?? The Complete Vision",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-02",
+      "title": "Table of Contents",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-03",
+      "title": "Strategic Overview",
+      "story_count": 2,
+      "stories_with_artifacts": 2,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-04",
+      "title": "Architecture",
+      "story_count": 3,
+      "stories_with_artifacts": 3,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-05",
+      "title": "Quick Start",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-06",
+      "title": "Project Structure",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-07",
+      "title": "Key Artifacts",
+      "story_count": 8,
+      "stories_with_artifacts": 8,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-08",
+      "title": "Development Workflow",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-09",
+      "title": "Testing",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-10",
+      "title": "Testing",
+      "story_count": 6,
+      "stories_with_artifacts": 6,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-11",
+      "title": "Deployment",
+      "story_count": 4,
+      "stories_with_artifacts": 4,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-12",
+      "title": "Documentation References",
+      "story_count": 4,
+      "stories_with_artifacts": 4,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-13",
+      "title": "Related Projects",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-14",
+      "title": "Governance & Compliance",
+      "story_count": 0,
+      "stories_with_artifacts": 0,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 0,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-15",
+      "title": "Governance & Compliance",
+      "story_count": 3,
+      "stories_with_artifacts": 3,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-16",
+      "title": "Success Metrics",
+      "story_count": 5,
+      "stories_with_artifacts": 5,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-17",
+      "title": "Support & Contact",
+      "story_count": 3,
+      "stories_with_artifacts": 3,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    },
+    {
+      "id": "F24-18",
+      "title": "Changelog",
+      "story_count": 3,
+      "stories_with_artifacts": 3,
+      "stories_with_evidence": 0,
+      "consistency_score": 0,
+      "mti": 50,
+      "gap_count": 0
+    }
+  ],
+  "gaps": []
+}
